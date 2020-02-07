@@ -20,7 +20,7 @@ else
         --site-name=Drupal Sandbox \
         --site-mail=testing@demo.sandbox \
         --account-mail=testing@demo.sandbox \
-        --account-name=admin \
-        --account-pass=root
+        --account-name=root \
+        --account-pass=admin
 fi
 docker-php-entrypoint "$@"
