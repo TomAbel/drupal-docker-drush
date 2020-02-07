@@ -1,4 +1,4 @@
-FROM drupal8-apache
+FROM drupal:8-apache
 # Install mysql-client for "mysqladmin ping" in drush_install.sh
 RUN apt-get update && apt-get install -y mysql-client libnotify-bin \
   && rm -rf /var/lib/apt/lists/*
