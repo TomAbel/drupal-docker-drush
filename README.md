@@ -36,6 +36,22 @@ Start up Docker
 ```
 docker-compose up -d
 ```
+
+Modules can be installed by adding this to docker-compose.yml
+
+```
+- ./mymodule:/var/www/html/modules/mymodule
+```
+
+and specifiying it in drush_install.sh
+
+```
+        --account-mail=testing@demo.sandbox \
+        --account-name=root \
+        --account-pass=admin
+    drush en -y mymodule
+```
+
 ## Built With
 
 * [Docker](https://www.docker.com/) - Container
