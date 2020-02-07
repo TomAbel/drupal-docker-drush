@@ -1,7 +1,7 @@
 # Drupal-Docker-Drush
 
 Automatically set up a Drupal 8 install with Drush.
-All in a Docker container, with credentials as root:admin.
+All in a Docker container, with credentials as root admin.
 ## Getting Started
 
 ```
